@@ -36,8 +36,11 @@ img{
   background-color: #fdeb6b;;
 }
 
-.categoryButtonSelected:hover {
+.categoryButtonSelected{
   background-color: green;
+}
+
+.categoryButton{
   cursor: pointer;
   margin: 5px;
   padding: 5px;
