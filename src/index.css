@@ -12,9 +12,9 @@ code {
     monospace;
 }
 
-body {
+/* body {
   background-color: #161616;
-}
+} */
 
 .block {
   background-color: rgba(255, 255, 255, 0.5);
