@@ -33,11 +33,11 @@ img{
 }
 
 .categoryButton:hover {
-  background-color: #fdeb6b;;
+  background-color: #ffda43 ;;
 }
 
 .categoryButtonSelected{
-  background-color: green;
+  background-color: #288c1f;
 }
 
 .categoryButton{
