@@ -3,6 +3,6 @@ import dishes from './dishesSlice';
 
 export const store = configureStore({
   reducer: {
-    dishes: dishes
+    dishes
   },
 })
