@@ -10,10 +10,10 @@ export const ChangeQuantity = ({quantity, setQuantity}) => {
         setQuantity(newQuantity);
     }
 
-    return(<div>
-
-        <button onClick={addQuantity}>+</button>
-        <span>{quantity}</span>
-        <button onClick={removeQuantity}>-</button>
-    </div>)
+    return(
+        <div>
+            <button onClick={addQuantity}>+</button>
+            <span>{quantity}</span>
+            <button onClick={removeQuantity}>-</button>
+        </div>)
 }
