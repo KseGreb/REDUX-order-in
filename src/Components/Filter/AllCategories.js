@@ -1,5 +1,6 @@
 import { Filter } from "./Filter"
 
+
 export const AllCategories = () =>{
     return(<div>
 

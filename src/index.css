@@ -60,4 +60,12 @@ button {
   margin-left: 10px;
 }
 
-
+.mainMenu{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+.menu{
+  display: flex;
+  flex-direction: column;
+}

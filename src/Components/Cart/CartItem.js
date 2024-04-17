@@ -3,11 +3,9 @@ import dishesData from "../../data/dishesData"
 import { removeItemFromCart } from "../../redux/cartSlice";
 
 export const CartItem = ({cartItem}) =>{
-    console.log(cartItem);
 
     const dishes = dishesData.find(item => item.id === cartItem.dishId);
     const dispatch = useDispatch();
-    console.log(dishes);
 
     return(<div>
         <p>{dishes.name}</p>
