@@ -10,7 +10,7 @@ export const Cart = () =>{
 
     return(<div>
         <img className="cartIcon" src="https://img.icons8.com/external-xnimrodx-lineal-color-xnimrodx/64/000000/external-shopping-cart-cyber-monday-xnimrodx-lineal-color-xnimrodx.png"/> 
-        <h3>YOUR TOTAL: ${totalPrice}</h3>
+        <h2>YOUR TOTAL: ${totalPrice}</h2>
         {cartItems.map(cartItem => <CartItem cartItem={cartItem}/>)}
         <button onClick={()=>{dispatch(removeAllIems())}}>EMPTY YOUR CART</button>
     </div>)
